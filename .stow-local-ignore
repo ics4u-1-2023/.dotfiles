@@ -5,3 +5,5 @@
 ^/README.*
 ^/LICENSE.*
 ^/setup_script.sh
+^/.stow-local-ignore
+
