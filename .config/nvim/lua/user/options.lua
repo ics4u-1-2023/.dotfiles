@@ -1,3 +1,4 @@
+-- luacheck: ignore vim
 vim.cmd("set encoding=utf-8")
 vim.cmd("set termguicolors")
 

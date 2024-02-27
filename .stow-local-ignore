@@ -1,9 +1,9 @@
 \.git
 \.github
 \.gitignore
+\scripts
 
 ^/README.*
 ^/LICENSE.*
 ^/setup_script.sh
 ^/.stow-local-ignore
-
