@@ -5,5 +5,8 @@
 
 ^/README.*
 ^/LICENSE.*
+^/CONTRIBUTING.*
+^/CODE_OF_CONDUCT.*
 ^/setup_script.sh
 ^/.stow-local-ignore
+
