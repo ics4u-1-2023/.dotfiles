@@ -21,4 +21,4 @@
     gh repo clone .dotfiles
     cd .dotfiles
     stow .
-  ```
+    ```
