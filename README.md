@@ -24,3 +24,4 @@
     cd ~
     sudo reboot now
     ```
+- then setup Codeium with NeoVim
