@@ -24,7 +24,7 @@
     stow .
     sudo reboot now
     ```
-- then start up NeoVim and let everything install, you will need to do this twice, then setup Codeium with NeoVim
+- then start up NeoVim and let everything install (you will need to do this twice) then setup Codeium with NeoVim
   - ```Shell
     :Codeium Auth
     ```
