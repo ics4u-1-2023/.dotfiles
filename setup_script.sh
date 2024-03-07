@@ -22,6 +22,10 @@ cd .. || exit
 cd .. || exit
 sudo rm -r ./temp
 
+# install for NeoVim LSP
+sudo apt install npm -y
+sudo npm i -g typescript-language-server; sudo npm i -g typescript
+
 # install languages
 curl -fsSL https://bun.sh/install | bash
 # shellcheck source=/dev/null
