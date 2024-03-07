@@ -21,4 +21,6 @@
     gh repo clone .dotfiles
     cd .dotfiles
     stow .
+    cd ~
+    sudo reboot now
     ```
