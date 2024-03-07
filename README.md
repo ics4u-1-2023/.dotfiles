@@ -25,9 +25,7 @@
     sudo reboot now
     ```
 - then start up NeoVim and let everything install, you will need to do this twice, then setup Codeium with NeoVim
-  -  ```Shell
-     :Codeium Auth
-     ```
+  - ```Shell
+    :Codeium Auth
+    ```
   - Codeium token URL: https://codeium.com/profile?response_type=token&redirect_uri=vim-show-auth-token&state=a&scope=openid%20profile%20email&redirect_parameters_type=query
-
-
