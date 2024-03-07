@@ -5,6 +5,7 @@
 - do 'sudo apt update'
 - do 'sudo apt install git -y'
 - do 'git clone https://github.com/ics4u-1-2023/.dotfiles.git'
+- do 'cd'
 - do 'cd .dotfiles'
 - do './setup_script.sh'
 - do 'sudo rm -r .dotfiles'
