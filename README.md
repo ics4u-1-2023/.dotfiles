@@ -9,7 +9,7 @@
     cd .dotfiles
     ./setup_script.sh
     ```
-- then:
+- then after all the programs are loaded:
   - ```Shell
     cd ~
     sudo rm -r .dotfiles
