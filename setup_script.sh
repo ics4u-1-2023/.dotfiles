@@ -11,6 +11,10 @@ sudo apt remove w3m -y
 sudo apt install gh -y
 sudo apt install stow -y
 
+# setup Git
+git config --global user.email "mr.coxall@mths.ca"
+git config --global user.name "Mr Coxall"
+
 # install NeoVim from source
 mkdir temp
 cd temp || exit
