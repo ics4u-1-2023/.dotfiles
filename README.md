@@ -18,10 +18,10 @@
     ```
 - after you login to GitHub:
   - ```Shell
+    cd ~
     gh repo clone .dotfiles
     cd .dotfiles
     stow .
-    cd ~
     sudo reboot now
     ```
 - then start up NeoVim and let everything install, you will need to do this twice, then setup Codeium with NeoVim
