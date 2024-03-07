@@ -38,7 +38,7 @@ cd .. || exit
 sudo rm -r ./temp
 
 # install FFmpeg
-sudo apt install ffmpeg
+sudo apt install ffmpeg -y
 
 # install VHS
 mkdir temp
