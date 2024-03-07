@@ -31,5 +31,4 @@ return {
       lspconfig.tsserver.setup({})
     end
   }
-}
 
