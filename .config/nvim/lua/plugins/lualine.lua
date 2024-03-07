@@ -1,12 +1,12 @@
 -- luacheck: ignore vim
 return {
-    "nvim-lualine/lualine.nvim",
-    config = function()
-      require("lualine").setup({
-        options = {
-          theme = "codedark"
-        },
-      })
-    end
-  }
-  
+  "nvim-lualine/lualine.nvim",
+  config = function()
+    require("lualine").setup({
+      options = {
+        theme = "codedark"
+      },
+    })
+  end
+}
+
