@@ -25,3 +25,7 @@
     sudo reboot now
     ```
 - then setup Codeium with NeoVim
+  -  ```Shell
+     :Codeium Auth
+     ```
+
