@@ -1,7 +1,7 @@
 # .dotfiles for AWS EC2 Debian-12
 
 ## Install process
-- start up instance
+- start up instance and run:
   - ```Shell
     sudo apt update
     sudo apt install git -y
@@ -9,9 +9,16 @@
     cd .dotfiles
     ./setup_script.sh
     ```
-- do 'sudo rm -r .dotfiles'
-- do 'sudo rm .bashrc'
-- do 'gh auth login'
-- do 'gh repo clone .dotfiles'
-- do 'cd .dotfiles'
-- do 'stow .' 
+- then:
+  - ```Shell
+    cd ~
+    sudo rm -r .dotfiles
+    sudo rm .bashrc
+    gh auth login
+    ```
+- after you login to GitHub:
+  - ```Shell
+    gh repo clone .dotfiles
+    cd .dotfiles
+    stow .
+  ```
