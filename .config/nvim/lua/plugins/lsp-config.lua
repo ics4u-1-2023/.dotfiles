@@ -1,7 +1,6 @@
 -- you will have to ensure npm and typescript are installed globally
 --
--- sudo apt install nodejs
--- sudo apt install npm
+-- sudo apt install npm -y
 -- sudo npm i -g typescript-language-server; sudo npm i -g typescript
 
 return {
