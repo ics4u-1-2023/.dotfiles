@@ -9,5 +9,7 @@
 - do './setup_script.sh'
 - do 'sudo rm -r .dotfiles'
 - do 'sudo rm .bashrc'
+- do 'gh auth login'
+- do 'gh repo clone .dotfiles'
 - do 'cd .dotfiles'
 - do 'stow .' 
