@@ -12,17 +12,17 @@
     ```
 - then after all the programs are loaded:
   - ```Shell
-    cd ~
-    sudo rm -r .dotfiles
-    sudo rm .bashrc
+    cd ~ && \
+    sudo rm -r .dotfiles && \
+    sudo rm .bashrc && \
     gh auth login
     ```
 - after you login to GitHub:
   - ```Shell
-    cd ~
-    gh repo clone .dotfiles
-    cd .dotfiles
-    stow .
+    cd ~ && \
+    gh repo clone .dotfiles && \
+    cd .dotfiles && \
+    stow . && \
     sudo reboot now
     ```
 - then start up NeoVim and let everything install (you will need to do this twice) then setup Codeium with NeoVim
