@@ -3,11 +3,11 @@
 ## Install process
 - start up instance and run:
   - ```Shell
-    sudo apt update
-    sudo apt install git -y
-    cd ~
-    git clone https://github.com/ics4u-1-2023/.dotfiles.git
-    cd .dotfiles
+    sudo apt update && \
+    sudo apt install git -y && \
+    cd ~ && \
+    git clone https://github.com/ics4u-1-2023/.dotfiles.git && \
+    cd .dotfiles && \
     ./setup_script.sh
     ```
 - then after all the programs are loaded:
