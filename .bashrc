@@ -18,3 +18,6 @@ alias l='ls -CF'
 export BUN_INSTALL="$HOME/.bun"
 export PATH=$BUN_INSTALL/bin:$PATH
 
+# turn bell off
+bind 'set bell-style none'
+
