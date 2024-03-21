@@ -10,7 +10,7 @@ PS1='\n\[\033[1;30m\]┌ \[\033[0;34m\]$(hostname) \[\e[38;5;135m\]$(pwd)\n\[\03
 
 PROMPT_DIRTRIM=1 #shows just the current directory name
 alias ls='ls --color=auto'
-alias ll='ls -alF'
+alias ll='lsd -alF'
 alias la='ls -A'
 alias l='ls -CF'
 
